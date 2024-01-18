@@ -43,4 +43,4 @@ jobs:
         uses: craftech-io/slack-action@v1
         with:
           slack_webhook_url: "https://hooks.slack.com/services/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"
-        if: success()
+        if: always()
